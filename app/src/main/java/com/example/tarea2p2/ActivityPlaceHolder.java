@@ -67,7 +67,7 @@ public class ActivityPlaceHolder extends AppCompatActivity {
                                 String id = post.getString("id");
                                 String title = post.getString("title");
                                 String body = post.getString("body");
-                                String dato = id+"\n "+title+" \n"+body;
+                                String dato = "ID:"+id+"\nTitulo: "+title+"\nCuerpo: "+body+"\n";
 
                                 // Arreglo.add(id);
                                 // Arreglo.add(title);

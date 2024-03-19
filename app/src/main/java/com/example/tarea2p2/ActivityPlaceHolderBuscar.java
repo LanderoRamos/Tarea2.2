@@ -86,7 +86,7 @@ public class ActivityPlaceHolderBuscar extends AppCompatActivity {
                             String id = post.getString("id");
                             String title = post.getString("title");
                             String body = post.getString("body");
-                            String dato = id+"\n "+title+" \n"+body;
+                            String dato = "ID: "+id+"\n\n Titulo:\n"+title+" \n\n Cuerpo:\n"+body;
 
                             // Arreglo.add(id);
                             // Arreglo.add(title);
