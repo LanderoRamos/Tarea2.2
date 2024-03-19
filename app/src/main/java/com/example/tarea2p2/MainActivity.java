@@ -6,6 +6,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -16,6 +17,15 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         BOTONES();
+
+        TextView textView3 = (TextView) findViewById(R.id.textView3);
+        textView3.setText("Integrantes del grupo: \n" +
+                "- Esdras Abiel Clother Paz (202010010048)\n" +
+                "- Eber Orestes González Garcia (201810030032)\n" +
+                "- Bayardo Antonio Ponce Ruiz (202110110125)\n" +
+                "- Jafeth Donatilo Rápalo Rivera (202120030040)\n" +
+                "- Dennis Antonio Landero Ramos (202120030040)\n" +
+                "- Delcer Oviel Hernandez (201510050050)");
 
     }
 
